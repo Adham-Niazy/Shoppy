@@ -17,7 +17,7 @@ const Home = ({ products, banners }) => {
         ))}
       </div>
 
-      <FooterBanner />
+      <FooterBanner footerBanner={banners.length && banners[0]} />
     </>
   );
 };
