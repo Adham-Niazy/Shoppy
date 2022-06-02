@@ -26,6 +26,7 @@ const productDetails = ({ product, productSuggestions }) => {
           <div className="small-images-container">
             {image?.map((item, idx) => (
               <img
+                key={idx}
                 src={urlFor(item)}
                 className={
                   idx === index ? "small-image selected-image" : "small-image"
@@ -71,7 +72,7 @@ const productDetails = ({ product, productSuggestions }) => {
             >
               Add to Cart
             </button>
-            <button type="button" className="buy-now" onClick={""}>
+            <button type="button" className="buy-now">
               Buy Now
             </button>
           </div>
