@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shoppy
 
-## Getting Started
+## An ecommerce website for buying electronics stuff 🛒💰💵
 
-First, run the development server:
+Things used in this project:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. NextJs Framework
+2. **Sanity** (Really a great CMS for making all your site content dynamic with an amazing dashboard control)
+3. **StripeJs** (For handling payments)
+4. Context API (For managing application state)
+5. NextJs Backend (For creating endpoint for handling stripe operations payment)
+6. Canvas Confetti (For creating nice canvas celebrations upon success payments)
+7. No CSS framework
+8. Vercel (For hosting && basic CICD)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This Application ([Shoppy](https://shoppy-ten.vercel.app/)) has the following pages:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Home page contains the latest sales on our site, best seller items
+- Product details page
+- Cart details component
+- Stripe Payment Page
+- Success Page that comes after a successfull payment
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h1 align="center">Home Page</h1>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![HomePage - Section 1](1.JPG)
+![HomePage - Section 2](2.JPG)
+![HomePage - Section 3](3.JPG)
 
-## Learn More
+<h1 align="center">Product Details Page</h1>
 
-To learn more about Next.js, take a look at the following resources:
+![ProductDetailsPage - Section 1](4.JPG)
+![ProductDetailsPage - Section 2](5.JPG)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h1 align="center">Cart Details</h1>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![CartDetails](6.JPG)
 
-## Deploy on Vercel
+<h1 align="center">Stripe Page</h1>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![StripePaymentDetailsPage](7.JPG)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h1 align="center">Success Page</h1>
+
+![SuccessPaymentPage](8.JPG)
