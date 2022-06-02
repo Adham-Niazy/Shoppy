@@ -6,7 +6,7 @@ import { client } from "../lib/client";
 const Home = ({ products, banners }) => {
   return (
     <>
-      <HeroBanner HeroBanner={banners.length && banners[0]} />
+      <HeroBanner HeroBanner={banners.length && banners[1]} />
       <div className="products-heading">
         <h2>Best Selling Products</h2>
         <p>Speakers of many variations</p>
